@@ -1,0 +1,11 @@
+[files]
+articlesfile: data/scielo_articles.shelf
+
+[api]
+base_url=http://http://articlemeta.scielo.org/
+port=80
+
+[endpoints]
+identifiers=/api/v1/article/identifiers
+journals=/api/v1/journal
+articles=/api/v1/article
