@@ -1,8 +1,11 @@
+[issns]
+issnsfile: data/scielo_issns.shelf
+
 [files]
 articlesfile: data/scielo_articles.shelf
 
 [api]
-base_url=http://http://articlemeta.scielo.org/
+base_url=http://articlemeta.scielo.org/
 port=80
 
 [endpoints]
