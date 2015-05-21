@@ -85,6 +85,7 @@ def fetch_identifiers(from_file=True):
                     break
     shelf.close()
     empty.close()
+    f.close()
     
 #    return all_ids as a dict that maps issn->set of ids
     print issnDict        
