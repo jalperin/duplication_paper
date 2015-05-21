@@ -88,7 +88,6 @@ def fetch_identifiers(from_file=True):
     f.close()
     
 #    return all_ids as a dict that maps issn->set of ids
-    print issnDict        
     return issnDict
     
  
